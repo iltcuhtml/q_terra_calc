@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37806.7 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "q_terra_calc", "q_terra_calc.pyproj", "{40E46638-BD61-48F5-B00D-D7FF9DCB80E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40E46638-BD61-48F5-B00D-D7FF9DCB80E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E46638-BD61-48F5-B00D-D7FF9DCB80E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EB38FC4-C354-4B71-8975-95C5997D121C}
+	EndGlobalSection
+EndGlobal
