@@ -1,5 +1,4 @@
 step1/3d_volume_model.py:
-
 	=== 이론 곡면 z = x^2 + y^2 (구간 0~1) 부피 계산 검증 ===
 	이론적 정적분 값: 0.66666...
 	
@@ -20,16 +19,21 @@ step1/3d_volume_model.py:
 	 - 사다리꼴법 계산값: 0.666668 (오차: 0.000001)
 
 step2/error_convergence_plot.py:
-
 	image/step2 small.png
 	image/step2 large.png
 
 step3/arduino_scanner.ino:
 
 step3/serial_data_logger.py:
+	...
+	csv/measured_terrain.csv
 
 step3/calculate_actual_volume.py:
-
 	=== 구분구적법(사다리꼴법) 지형 부피 계산 결과 ===
 	데이터 크기: 10 x 10 격자
 	측정된 모형의 토공량(부피): 310.73 cm^3
+
+step4/quantum_simulation.py:
+	=== 양자 시뮬레이션을 통한 적분 계산 결과 ===
+	사용 큐비트 수: 7 (총 128개 상태 중 100개 데이터 매핑)
+	양자 진폭 추정 기반 토공량(부피): 312.84 cm³

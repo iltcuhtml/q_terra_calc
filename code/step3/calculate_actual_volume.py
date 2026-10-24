@@ -15,8 +15,7 @@ def load_data_from_csv(filename):
     return z_data
 
 def calculate_measured_volume(z_grid, dx, dy):
-    rows = len(z_grid)
-    cols = len(z_grid[0])
+    rows, cols = len(z_grid), len(z_grid[0])
     total_volume = 0
     
     for i in range(rows - 1):
@@ -32,12 +31,9 @@ def calculate_measured_volume(z_grid, dx, dy):
             
     return total_volume
 
-filename = 'measured_terrain.csv'
-measured_z_data = load_data_from_csv(filename)
+measured_z_data = load_data_from_csv('../../output/csv/measured_terrain.csv')
 
-dx_cm = 2.0
-dy_cm = 2.0
-
+dx_cm, dy_cm = 2.0, 2.0
 final_volume = calculate_measured_volume(measured_z_data, dx_cm, dy_cm)
 
 print("=== 구분구적법(사다리꼴법) 지형 부피 계산 결과 ===")
