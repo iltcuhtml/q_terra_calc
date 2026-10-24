@@ -18,3 +18,8 @@ step1 output:
 [격자 500x500]
  - 직사각형법 계산값: 0.664668 (오차: 0.001999)
  - 사다리꼴법 계산값: 0.666668 (오차: 0.000001)
+
+step2 output:
+
+step2 output small.png
+step2 output large.png
