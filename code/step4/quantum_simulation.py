@@ -40,4 +40,4 @@ for state, count in counts.items():
 
 print("=== 양자 시뮬레이션을 통한 적분 계산 결과 ===")
 print(f"사용 큐비트 수: {num_qubits} (총 {num_states}개 상태 중 {N_actual}개 데이터 매핑)")
-print(f"양자 진폭 추정 기반 토공량(부피): {estimated_volume:.2f} cm³")
+print(f"양자 진폭 추정 기반 토공량(부피): {estimated_volume:.2f} cm^3")
